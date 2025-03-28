@@ -30,7 +30,7 @@ echo -e "${GREEN}Found latest version: ${VERSION}${NC}"
 
 # Create a temporary directory for downloading
 TEMP_DIR=$(mktemp -d)
-TEMP_FILE="$TEMP_DIR/$BINARY_NAME"
+TEMP_FILE="$TEMP_DIR/$BINARY_NAM"
 
 echo -e "${YELLOW}Downloading $BINARY_NAME v${VERSION}...${NC}"
 curl -L "$LATEST_RELEASE_URL" -o "$TEMP_FILE"
